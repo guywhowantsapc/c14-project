@@ -68,9 +68,8 @@ function draw() {
   
   if (arrowGroup.isTouching(redB)) {
     
-    //redB.destroyEach();
-    redB.destroy();
-    // clarify with teacher if this should be redB.destroy() instead of redB.destroyEach();
+    redB.destroyEach();
+    //redB.destroy();
     //redB.Each();
     //ballon.destroyEach();
     
